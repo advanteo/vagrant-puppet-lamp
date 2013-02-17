@@ -1,14 +1,14 @@
 <VirtualHost *:80>
-	ServerAdmin info@inventis.be
+	ServerAdmin info@droptica.com
 
-	DocumentRoot /vagrant/src
+	DocumentRoot /vagrant/drupal
 	
 	<Directory />
 		Options FollowSymLinks
 		AllowOverride None
 	</Directory>
 	
-	<Directory /vagrant/src/>
+	<Directory /vagrant/drupal/>
 		Options Indexes FollowSymLinks MultiViews
 		AllowOverride All
 		Order allow,deny

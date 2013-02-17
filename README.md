@@ -3,10 +3,10 @@ vagrant-puppet-lamp
 
 Basic Vagrant setup with provisioning by Puppet
 
-Setup: Ubuntu Lucid x86 with LAMP
+Setup: Debian with LAMP, drush and Vim
 
 Requirements:
-- VirtualBox (https://www.virtualbox.org/wiki/Downloads)
+- Vanila debian-sqeeze64 Box (should work on other debian as well)
 - Vagrant (http://downloads.vagrantup.com/tags/v1.0.3)
 
 Guide:
