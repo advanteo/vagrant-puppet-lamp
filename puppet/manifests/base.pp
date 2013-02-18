@@ -18,3 +18,4 @@ include mysql
 include phpmyadmin
 include drush
 include vim 
+include nfs 
