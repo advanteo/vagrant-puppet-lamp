@@ -21,8 +21,8 @@ If you set up NFS Shared Folders in the Vagrant file on first install, it will F
 it will try to mount them before nfs-server-kernel is intstalled on the machine. 
 
 If you want to use NFS (what I would recommend for Drupal as it has many files) you have to: 
-1. do 'vagrant up' without NFS enabled (nfs-kernel-server will get installed on the box)
-2. edit Vadrantfile to enable nfs and do 'vagrant reload'
+- do 'vagrant up' without NFS enabled (nfs-kernel-server will get installed on the box)
+- edit Vagrantfile to enable nfs and do 'vagrant reload'
 
 Notes: 
  - The 'drupal' directory is linked to the webserver document root.
