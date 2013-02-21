@@ -18,5 +18,6 @@ include mysql
 include pear
 include drush
 include phpmyadmin
+include php5-xdebug
 include vim 
 include nfs 
