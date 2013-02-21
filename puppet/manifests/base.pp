@@ -15,7 +15,8 @@ include other
 include apache
 include php
 include mysql
-include phpmyadmin
+include pear
 include drush
+include phpmyadmin
 include vim 
 include nfs 
