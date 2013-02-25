@@ -4,7 +4,7 @@ class php
         "php5", 
         "php5-cli", 
         "php5-mysql", 
-#        "php-pear", 
+        "php-pear", 
         "php5-dev", 
         "php-apc", 
         "php5-mcrypt", 
