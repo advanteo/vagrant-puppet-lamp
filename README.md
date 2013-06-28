@@ -28,7 +28,7 @@ If you want to use NFS (what I would recommend for Drupal as it has many files) 
 - edit Vagrantfile to enable nfs and do 'vagrant reload'
 
 Notes: 
- - The 'drupal' directory is linked to the webserver document root.
+ - The 'drupal/app' directory is linked to the webserver document root.
 
 Note: default mysql username and password are root.
 

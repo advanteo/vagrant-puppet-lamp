@@ -1,14 +1,14 @@
 <VirtualHost *:80>
 	ServerAdmin info@droptica.com
 
-	DocumentRoot /vagrant/drupal
+	DocumentRoot /vagrant/drupal/app
 	
 	<Directory />
 		Options FollowSymLinks
 		AllowOverride None
 	</Directory>
 	
-	<Directory /vagrant/drupal/>
+	<Directory /vagrant/drupal/app>
 		Options Indexes FollowSymLinks MultiViews
 		AllowOverride All
 		Order allow,deny
