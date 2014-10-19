@@ -7,7 +7,7 @@ Vagrant::Config.run do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "debian-squeeze64"
+  config.vm.box = "12.04"
   
   # Where is the base box if it's not on your system yet
   # The url from where the 'config.vm.box' box will be fetched if it
